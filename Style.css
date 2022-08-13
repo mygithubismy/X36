@@ -1,0 +1,88 @@
+/* solving basic problems */
+div{cursor: default}
+h2{cursor: default}
+.nol{list-style: none}
+
+/* container with screen size */
+.container-1{
+  font-size: 16px;
+  color: rgb(39, 39, 39);
+  background-color: lightcoral;
+  width: 99%;
+  height: 99vh;
+  padding: 8px;
+  margin: 8px 0px 20px 0px;
+  border: 2px solid rosybrown;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+/* container with custom size */
+.container-2{
+  font-size: 16px;
+  color: rgb(39, 39, 39);
+  background-color: lightcoral;
+  padding: 8px;
+  margin: 0px 0px 20px 0px;
+  border: 2px solid rosybrown;
+  border-radius: 1rem;
+  overflow: auto;
+}
+
+/* class-1 */
+.class-1{
+  outline: 1px #ccc solid;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+}
+
+/* flexbox-1 */
+.flexbox-1{
+  display: flex;
+  background-color: transparent;
+  border-bottom: 2px solid #ccc;
+}
+.row-class-1{
+  color: rgb(40, 40, 40);
+  padding: 4px 6px 4px 6px;
+  margin: 4px 6px 0px 6px;
+  background-color: rgb(140, 40, 220);
+  border: 1px solid black;
+  border-bottom-color: rgb(140, 40, 220);
+}
+.row-class-1:hover, :focus, :active{
+  cursor: pointer;
+  background-color: rgb(110, 10, 230);
+  border-bottom-color: rgb(110, 10, 230);
+}
+
+/* flexbox-2 */
+.flexbox-2{
+  display: flex;
+  flex-direction: column;
+}
+.column-class-1{
+  color: rgb(40, 40, 40);
+  padding: 4px 6px 4px 6px;
+  margin: 4px 6px 0px 6px;
+  background-color: chocolate;
+  border: 1px solid black;
+  border-bottom-color: chocolate;
+}
+.column-class-1:hover, :focus, :active{cursor: pointer}
+#column-id-1{border-bottom-color: black;}
+
+/* grid-1 */
+.grid-1{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-gap: 10px;
+}
+.grid-class-1{
+  background-color: #ccc;
+  margin: 3px 0px 3px 0px;
+  border-radius: 4px;
+}

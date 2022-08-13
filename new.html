@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>Flexbox-3</title>
+
+        <style>
+            *{
+              outline: 1px #ccc solid;
+              margin: 10px;
+              padding: 10px;
+            }
+            body, nav, main, article{display: flex}
+            body, article{flex-direction: column}        
+        </style>
+    </head>
+
+    <body>
+        <h1>My Page's title!</h1>
+
+        <!-- navbar -->
+        <nav>
+            <a href="/">Home</a>
+            <a href="/">About</a>
+            <a href="/">Blog</a>
+            <a href="/">Careers</a>
+            <a href="/">Contact Us</a>
+        </nav>
+
+        <main>
+            <!-- art-1 -->
+            <article>
+                <img alt="" src="img1.jpg">
+                <p>This is some awesome content that is on the page.</p>
+                <button>Go Somewhere</button>
+            </article>
+
+            <!-- art-2 -->
+            <article>
+                <img alt="" src="img2.jpg">
+                <p>This is more content than the previous box, but less than the next.</p>
+                <button>Click Me</button>
+            </article>
+
+            <!-- art-3 -->
+            <article>
+                <img alt="" src="img3.jpg">
+                <p>We have lots of content here to show that content can grow, and everything can be the same size if you use flexbox.</p>
+                <button>Do Something</button>
+            </article>
+        </main>
+
+        <a href="Index.html">&#169;</a>
+    </body>
+</html>
